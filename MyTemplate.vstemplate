@@ -1,0 +1,31 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>EulerSolution</Name>
+    <Description>Template for one-time calculations</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EulerSolution</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.ico</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="EulerProjectSolution1.vcxproj" File="EulerProjectSolution1.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">EulerProjectSolution1.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Workspace.cpp">Workspace.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Checktime.cpp">Checktime.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ClipboardCopying.cpp">ClipboardCopying.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Main.cpp">Main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Checktime.h">Checktime.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ClipboardCopying.h">ClipboardCopying.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="OutputToFile.h">OutputToFile.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="ResultType.h">ResultType.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Workspace.h">Workspace.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
